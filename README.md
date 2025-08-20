@@ -1,6 +1,6 @@
 # End-to-End DevOps Automation for a Scalable and Secure AI Chatbot
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)]((https://github.com/Consultantsrihari/End-to-End-DevOps-Automation-AI-Chatbot.git))
+[![GitHub Repository](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)](https://github.com/Consultantsrihari/End-to-End-DevOps-Automation-AI-Chatbot.git)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/VenkataSriHari)
 [![Website](https://img.shields.io/badge/Website-Visit-green?logo=google-chrome)](https://Techcareerhubs.com)
 
