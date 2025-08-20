@@ -1,6 +1,37 @@
 # End-to-End DevOps Automation for a Scalable and Secure AI Chatbot
 
-This repository contains the complete source code and configuration for deploying a scalable and secure AI-powered chatbot using modern DevOps practices. The project is based on the "End-to-End DevOps Automation" guide by DevOps Shack.
+[![GitHub Repository](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)]((https://github.com/Consultantsrihari/End-to-End-DevOps-Automation-AI-Chatbot.git))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/VenkataSriHari)
+[![Website](https://img.shields.io/badge/Website-Visit-green?logo=google-chrome)](https://Techcareerhubs.com)
+
+This repository contains the complete source code and configuration for deploying a scalable and secure AI-powered chatbot using modern DevOps practices. The project is based on the "End-to-End DevOps Automation" guide by TechCareerHubs
+![devops_flowchart](https://github.com/user-attachments/assets/e73bb0c0-9062-42ab-837b-dfa2a9e06460)
+
+
+## Project Structure
+The repository is organized to separate concerns, making it clean and maintainable.
+```
+End-to-End-DevOps-Automation-AI-Chatbot
+├── .github/
+│ └── workflows/
+│ └── ci-cd.yml # Main CI/CD automation pipeline
+├── app/
+│ └── main.py # FastAPI application source code
+├── kubernetes/
+│ ├── deployment.yaml # Kubernetes Deployment manifest
+│ ├── service.yaml # Kubernetes Service manifest
+│ ├── hpa.yaml # Horizontal Pod Autoscaler manifest
+│ ├── ingress.yaml # Nginx Ingress manifest
+│ └── kustomization.yaml # Kustomize file to manage all K8s manifests
+├── tests/
+│ └── test_main.py # Unit tests for the application
+├── k6/
+│ └── load-test.js # k6 script for performance testing
+├── .gitignore # Files and directories to be ignored by Git
+├── Dockerfile # Instructions to build the container image
+├── README.md # This file - project documentation
+└── requirements.txt # Python dependencies
+```
 
 ## Features
 - **CI/CD Automation**: Automated build, test, and deployment pipeline using GitHub Actions.
@@ -43,7 +74,7 @@ This repository contains the complete source code and configuration for deployin
 ### Local Development
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/Consultantsrihari/End-to-End-DevOps-Automation-AI-Chatbot.git
     cd <repo-name>
     ```
 
@@ -127,3 +158,21 @@ To run the load test script:
 ```bash
 # Make sure your service is accessible at the URL in the script
 k6 run k6/load-test.js
+```
+---
+
+## 🤝 Contributing
+
+1. Fork and clone the repo.
+2. Make changes in a feature branch.
+3. Open a pull request.
+
+---
+
+## 👤 Author
+
+**VenkataSriHari**
+
+*   LinkedIn: [Venkata sri Hari](https://www.linkedin.com/in/venkatasrihari/)
+*   GitHub: `@Consultantsrihari`
+*   Website: [TechCareerHubs](https://techcareerhubs.com/).
